@@ -1,0 +1,29 @@
+
+.todo-list-item {
+    float: left;
+    font-size: 1.25rem;
+    
+}
+
+.todo-list-item .button {
+    width: 35px;
+    margin: 3px;
+}
+
+.todo-list-item-label {
+    float: right;
+    margin-left: 1.25rem;
+    line-height: 35px;
+    cursor: pointer;
+    user-select: none;
+    
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.important {
+    font-weight: bold;
+    color: steelblue;
+}
